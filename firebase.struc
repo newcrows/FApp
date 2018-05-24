@@ -1,0 +1,24 @@
+"root": {
+  "dates": {
+    "$user": {
+      "$item": {
+        "type": string,
+        "text": string,
+        "timestamp": int/unixtime
+      }
+    }
+  },
+  "types": {
+    "$type": {
+      "bk": string,
+      "col": string,
+      "duration": int,
+      "label": string
+    }
+  },
+  "users": {
+    "$user": {
+      "role": int
+    }
+  }
+}
