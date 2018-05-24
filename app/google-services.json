@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "838812094411",
+    "firebase_url": "https://fappexample.firebaseio.com",
+    "project_id": "fappexample",
+    "storage_bucket": "fappexample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838812094411:android:b19883df3fd8d2b8",
+        "android_client_info": {
+          "package_name": "com.crowsnet.fappexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838812094411-r9h3rrak68s3p403eatklb5btrmtov15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crowsnet.fappexample",
+            "certificate_hash": "43477403331ac32cec2860a17f4f2a408b9208b8"
+          }
+        },
+        {
+          "client_id": "838812094411-ngvg84n16onoquks2g7ht29m4roo4ttn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcuxKnLWMIJocJrhRLpCI-RiZRlR6mVuw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838812094411-ngvg84n16onoquks2g7ht29m4roo4ttn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
