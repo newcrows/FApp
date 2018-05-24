@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "dates": {
+      "$owner": {
+      	".read": "$owner == auth.uid || root.child('users').child(auth.uid).child('role').val() > 2",
+      	".write": "$owner == auth.uid || root.child('users').child(auth.uid).child('role').val() > 2" 
+      }
+    },
+    "users": {
+      "$user": {
+      	".read": "$user == auth.uid || root.child('users').child(auth.uid).child('role').val() > 2",
+      	".write": "root.child('users').child(auth.uid).child('role').val() > 2"
+      }
+    },
+    "types": {
+      ".read": "root.child('users').child(auth.uid).child('role').val() > 0",
+      ".write": "root.child('users').child(auth.uid).child('role').val() > 2"
+    }
+  }
+}
